@@ -1,0 +1,273 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main-wrapper {
+	position: relative;
+}
+
+.header {
+	width: 100%;
+	height: 128px;
+  background-color: #fff;
+  margin:0px auto;
+}
+
+.logo {
+	width: 88px;
+	height: 106px;
+	background: url("../img/logo.png");
+	display: inline-block;
+}
+
+.wrapper {
+	width: 1200px;
+	padding: 0 15px 0 15px;
+	margin: 0 auto;
+}
+
+.logo-wrapper {
+	width: 250px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-text {
+	margin-top: 15px;
+	font-family: "BEBAS", sans-serif;
+	display: inline-block;
+	font-size: 36px;
+	font-weight: bold;
+	color: rgba(110, 109, 107, 1);
+}
+
+.orange {
+	font-family: "BEBAS", sans-serif;
+	display: inline-block;
+	font-weight: normal;
+	color: rgba(251, 156, 6, 1);
+}
+
+.header-nav {
+	width: 500px;
+}
+
+.nav-ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+.flex-jc-sb {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav-li {
+	width: 55px;
+	height: 47px;
+	font-family: "Calibri", sans-serif;
+	list-style: none;
+	padding-top: 50px;
+}
+
+.nav-li a {
+	text-decoration: none;
+	font-size: 27px;
+	color: rgba(158, 155, 155, 1);
+}
+
+.nav-li-home {
+	background: url("../img/home-icon.png") no-repeat;
+	background-position: 50% 50%;
+}
+
+.nav-li-about {
+	background: url("../img/about-icon.png") no-repeat;
+	background-position: 63% 50%;
+}
+
+.nav-li-work {
+	background: url("../img/work-icon.png") no-repeat;
+	background-position: 50% 50%;
+}
+
+.nav-li-blog {
+	background: url("../img/blog-icon.png") no-repeat;
+	background-position: 31% 50%;
+}
+
+.nav-li-contact {
+	background: url("../img/contact-icon.png") no-repeat;
+	background-position: 90% 50%;
+}
+
+.first-section {
+	width: 100%;
+	height: 400px;
+	background: url("../img/big-orange-bg.png");
+	background-size: cover;
+	border-top: 3px solid rgba(251, 156, 6, 1);
+	border-bottom: 3px solid rgba(251, 156, 6, 1);
+}
+
+.title-one {
+	text-align: center;
+	width: 380px;
+	margin-top: 125px;
+	background-color: rgba(75, 79, 79, 0.7);
+	align-content: center;
+	padding: 12px 0 15px 0;
+	font-size: 37px;
+	font-family: "BEBAS", sans-serif;
+	font-weight: bold;
+	color: rgba(251, 156, 6, 1);
+}
+
+.title-two {
+	text-align: center;
+	width: 395px;
+	margin-top: 20px;
+	background-color: rgba(252, 199, 89, 0.7);
+	align-content: center;
+	padding: 12px 0 15px 0;
+	font-size: 37px;
+	font-family: "BEBAS", sans-serif;
+	font-weight: bold;
+	color: rgba(110, 109, 107, 1);
+}
+
+.second-section {
+	background-color: #fff;
+}
+
+.item {
+	width: 300px;
+	padding: 0 15px 0 15px;
+	overflow: hidden;
+}
+
+.item p {
+  font-family: Calibri, sans-serif;
+  text-align: justify;
+	font-size: 15px;
+	color: rgba(0, 0, 0, 1);
+}
+
+.item a {
+	float: right;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Calibri, sans-serif;
+	color: rgba(255, 172, 0, 1);
+}
+
+.meet-heading {
+	font-family: "ST MARIE", sans-serif;
+	text-decoration: underline;
+	color: rgba(255, 172, 0, 1);
+	text-align: center;
+	font-size: 40px;
+}
+
+.title-caption {
+	width: 300px;
+	text-align: center;
+	font-family: Calibri, sans-serif;
+	font-size: 22px;
+	color: rgba(110, 109, 107, 1);
+}
+
+.title-caption-orange {
+	font-family: Calibri, sans-serif;
+	font-size: 22px;
+	color: rgba(251, 156, 6, 1);
+}
+
+figure {
+	width: 300px;
+	height: 300px;
+	display: block;
+	float: left;
+	margin: 0 15px 15px 0;
+	text-align: center;
+	border-radius: 50%;
+	border: 9px solid rgba(255, 181, 64, 1);
+}
+
+.avatar-horse {
+	background: url("../img/horse-google.jpg");
+}
+
+.avatar-rabbit {
+	background: url("../img/rabbit-google.jpg");
+}
+
+.avatar-bird {
+	background: url("../img/bird-google.jpg");
+}
+
+.text p {
+	font-family: Calibri, sans-serif;
+	font-size: 15px;
+	text-align: justify;
+	color: rgba(0, 0, 0, 1);
+}
+
+.label-form {
+	width: 142px;
+	font-family: "ST MARIE", sans-serif;
+	font-size: 24px;
+	display: block;
+	color: rgba(251, 156, 6, 1);
+}
+
+.input-wrapper {
+	display: flex;
+	margin: 40px 0 40px 0;
+}
+
+.form {
+	background-color: rgba(248, 247, 246, 1);
+	box-shadow: inset 3px 3px 10px rgba(210, 208, 207, 1);
+	width: 1060px;
+}
+
+.form-text-area {
+	box-shadow: inset 3px 3px 10px rgba(210, 208, 207, 1);
+	background-color: rgba(248, 247, 246, 1);
+	width: 1060px;
+	height: 90px;
+	resize: none
+}
+
+.submit {
+	width: 180px;
+	height: 50px;
+	float: right;
+	margin-right: 30px;
+	font-family: "ST MARIE", sans-serif;
+	font-size: 30px;
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(251, 156, 6, 1);
+}
+
+.footer {
+	width: 100%;
+	height: 75px;
+	margin-top: 100px;
+	padding: 20px 0 20px 0;
+	position: absolute;
+	background-color: rgba(251, 156, 6, 1);
+}
+
+.copyright {
+	font-family: "ST MARIE", sans-serif;
+	font-size: 33px;
+	text-align: center;
+	color: rgba(255, 255, 255, 1);
+}
